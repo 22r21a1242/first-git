@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <title> LOGIN Form</title>
+	<body bgcolor="	#B2BEB5">
+      <script src="script.js"></script>
+       <style>
+       body{
+          margin:0;
+          padding:0;
+      
+          background-size: cover;
+          font-family: sans-serif;
+           }
+      .log{  width:1366px;
+          height:696px;
+          
+          }
+      .loginbox{  width: 320px;
+          height: 450px;
+          background: #000;
+          color: #fff;
+          top:20%;
+          left:36%;
+          position:absolute;
+          transform: translate{-50%,-50%}
+          box-sizing:border-box;
+           padding: 70px 30px;
+          opacity: 0.7;
+               }
+      .avatar{  width: 100px;
+          height: 100px;
+          border-radius:50%;
+          position:absolute;
+          top:-14%;
+          left:calc(50% - 50px);
+             }
+      h1{    margin:0;
+          padding: 0 0 20px;
+          text-align: center;
+          font-size: 30px;
+          font-family:AR JULIAN;
+          color:rgb(227, 185, 185);
+        }    
+      .loginbox p{  margin:0;
+          padding: 0;
+          font-weight:bold;
+                 }
+      .loginbox input{width: 100%;
+          margin-bottom:20px;
+                     }
+      .loginbox input[type="text"], input[type="password"]{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background: transparent;
+          outline:none;
+          height:40px;
+          color:#fff;
+          font-size:16px;
+              }
+      .loginbox input[type="submit"]{
+          border: none;
+          outline:none;
+          height:40px;
+          background:#fb2525;
+          color: #fff;
+          font-size:18px;
+          border-radius:20px;
+              }
+      .loginbox input[type="submit"]:hover
+      {    cursor:pointer;
+          background:#ffc107;
+          color:#000;
+      }
+      .loginbox a{   
+          text-decoration:none;
+          font-size:12px;
+          line-height:20px;
+          color: darkgrey;
+      }
+      .loginbox a:hover
+      {  
+        color:#ffc107;
+      }
+      .active{
+        color:#fff;
+        background:#e02626;
+        border-radius:4px;
+      }
+       </style>
+  </head>
+  <body>
+    <img class="log">
+    <div class="loginbox">
+   
+    <h1>Login Here</h1>
+    
+
+	<form  method="get" action="index.html">
+
+    <p> Username</p>
+    <input type="text" name="t1" value=""><br>
+    <p> Password</p>
+    <input type="password" name="t2" value=""><br>
+	<div align="center"><a href=" "> forget password </a></div><br>
+    <input type="submit" name="submit" value="Login" >
+    
+   
+  </body>
+</html>
+
+
+
+
+
